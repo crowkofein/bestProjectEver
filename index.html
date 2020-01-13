@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Resume</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
@@ -18,154 +18,50 @@
 </head>
 
 <body>
-    <div class="ba-main-wrapper ba-customers">
-        <header class="ba-header ba-col-12 ba-col-md-3">
-            <div>
-                <div class="ba-header-top">
-                    <a href="#" class="ba-logo">CreativeCRM</a>
+    <header class="ba-header">
+        <div class="container">
 
-                    <div class="ba-notification-wrapper hiden-md">
-                        <button class="" aria-label="new mesage">
-                            <i class="fas fa-envelope hiden-md"></i>
-                        </button>
-                        <button class="" aria-label="new notificstion">
-                            <i class="fas fa-bell "></i>
-                        </button>
-                    </div>
+            <a href="#" class="ba-logo"></a>
 
-                    <button class="ba-menu-btn hiden-md" aria-label="show menu">
-                        <i class="fas fa-bars"></i>
-                    </button>
+            <nav>
+                <ul class="ba-menu">
+                    <li class="ba-menu__item">
+                        <a href="#" class="ba-menu__link">item</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#" class="ba-menu__link">item</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#" class="ba-menu__link">item</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#" class="ba-menu__link">item</a>
+                    </li>
+                </ul>
+            </nav>
 
-                </div>
-                <nav>
-                    <ul class="ba-menu">
-                        <li class="ba-menu__item ba-menu__item-user">
-                            <div class="ba-user ">
-                                <a href="#" class="ba-user__link">
-                                    <img src="images/user.png" class="ba-user__photo" alt="Laurent">
-                                    <span>Hello Lauren</span>
-                                </a>
-                                <button id="showUserMenu" aria-label="show user menu">
-                                    <i class="fas fa-angle-down"></i>
-                                </button>
+        </div>
+    </header>
 
-                            </div>
-                        </li>
-                        <li class="ba-menu__item">
-                            <a href="#" class="ba-menu__link">
-                                <i class="fas fa-tachometer-alt"></i>
-                                dashboard
-                            </a>
-                        </li>
-                        <li class="ba-menu__item">
-                            <a href="#" class="ba-menu__link">
-                                <i class="fas fa-chart-pie"></i>
-                                reports
-                            </a>
-                        </li>
-                        <li class="ba-menu__item">
-                            <a href="#" class="ba-menu__link">
-                                <i class="fas fa-briefcase"></i>
-                                customers
-                            </a>
-                        </li>
-                        <li class="ba-menu__item">
-                            <a href="#" class="ba-menu__link">
-                                <i class="fas fa-calendar-alt"></i>
-                                calendars
-                            </a>
-                        </li>
-                        <li class="ba-menu__item">
-                            <a href="#" class="ba-menu__link">
-                                <i class="fas fa-tasks"></i>
-                                Tasks
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+    <main>
+        <section class="ba-section">
+            <div class="container">
 
             </div>
-        </header>
+        </section>
+    </main>
 
-        <main class="ba-col-12 ba-col-md-9">
-            <section class="ba-toolbar ba-row">
-                <div class="container ba-toolbar-wrapper">
+    <footer class="ba-footer">
+        <div class="container">
 
+        </div>
+    </footer>
 
-                    <nav class="ba-breadcrumbs">
-                        <ul class="ba-breadcrumbs__list">
-                            <li class="ba-breadcrumbs__item">
-                                <a href="#">Customers</a>
-                            </li>
-                            <li class="ba-breadcrumbs__item">
-                                <span>Max Jones</span>
-                            </li>
-                        </ul>
-                    </nav>
-
-
-                    <div class="ba-search">
-
-                        <button class="hiden-md" id="showSearch" aria-label="show-search">
-                            <i class="fas fa-search"></i>
-                        </button>
-                        <form action="/" class="ba-search-form">
-                            <input type="search" class="ba-search__input" placeholder="Search">
-                            <button class="ba-search__btn" aria-label="search">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </form>
-
-                    </div>
-
-
-                    <div class="ba-notification-wrapper hiden-sm">
-                        <button class="ba-notification__btn" aria-label="new mesage">
-                            <i class="fas fa-envelope "></i>
-                            <span class="ba-badge">1</span>
-                        </button>
-                        <button class="" aria-label="new notificstion">
-                            <i class="fas fa-bell "></i>
-                        </button>
-                    </div>
-
-                    <div class="ba-user hiden-sm">
-                        <a href="#" class="ba-user__link">
-                            <img src="images/user.png" class="ba-user__photo" alt="Laurent">
-                            <span>Hello Lauren</span>
-                        </a>
-                        <button id="showUserMenu" class="ba-dropdown-btn" aria-label="show user menu">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-
-                        <div class="ba-dropdown animated jackInTheBox">
-                            <ul class="ba-dropdown-content">
-                                <li class="ba-dropdown__item">
-                                    <a href="#" class="ba-dropdown__element">My Profile</a>
-                                </li>
-                                <li class="ba-dropdown__item">
-                                    <a href="#" class="ba-dropdown__element">Calendar</a>
-                                </li>
-                                <li class="ba-dropdown__item">
-                                    <a href="#" class="ba-dropdown__element">
-                                        <i class="fas fa-sign-out-alt"> </i>
-                                        Logout
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-        </main>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+
+    <script src='js/app.js'></script>
 
 </body>
 
