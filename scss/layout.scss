@@ -4,10 +4,10 @@ $gap: 15px;
 $col: 12;
 $colWidth: 100% / $col;
 
-$primaryColor: #303841;
-$secondaryColor: #442a9d;
+$primaryColor: #fff;
+$secondaryColor: #fff;
 
-$yellow: #ffc12d;
+
 
 
 
@@ -89,6 +89,48 @@ $btnBorderColor: $primaryColor;
       .hiden-md{
           display: none;
       }
+}
+
+@media screen and (min-width: 1024px){
+  .ba-col-l-12 {
+      width: 100%;
+    }
+    .ba-col-l-11 {
+      width: 91.66%;
+    }
+    .ba-col-l-10 {
+      width: 83.3%;
+    }
+    .ba-col-l-9 {
+      width: 74.97%;
+    }
+    .ba-col-l-8 {
+      width: 66.62%;
+    }
+    .ba-col-l-7 {
+      width: 58.3%;
+    }
+    .ba-col-l-6 {
+      width: 50%;
+    }
+    .ba-col-l-5 {
+      width: 41.65%;
+    }
+    .ba-col-l-4 {
+      width: 33.3%;
+    }
+    .ba-col-l-3 {
+      width: 24.98%;
+    }
+    .ba-col-l-2 {
+      width: 16.66%;
+    }
+    .ba-col-l-1 {
+      width: 8.33%;
+    }
+    .hiden-l{
+        display: none;
+    }
 }
 
 @media screen and(max-width:990px){

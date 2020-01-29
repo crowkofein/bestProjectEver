@@ -17,15 +17,40 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
-<body>
-    <header class="ba-header">
-        <div class="container">
 
-            <a href="#" class="ba-logo"></a>
+<body>
+    <!-- Header Start -->
+    <header class="ba-header">
+        <div class="container ba-header__wrapper">
+            <div class="ba-header-top">
+                <div class="ba-social">
+                    <a href="#" class="ba-social__item"><i class="fab fa-behance "></i></a>
+                    <a href="#" class="ba-social__item"><i class="fab fa-linkedin "></i></a>
+                    <a href="#" class="ba-social__item"><i class="fab fa-facebook-f "></i></a>
+                    <a href="#" class="ba-social__item"><i class="fab fa-twitter "></i></a>
+                    <a href="#" class="ba-social__item"><i class="fab fa-linkedin-in "></i></a>
+                </div>
+
+                <button class="ba-menu-btn" aria-label="show menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
 
             <nav>
-                <ul class="ba-menu">
+                <ul class="ba-menu ">
                     <li class="ba-menu__item">
+                        <a href="#about" class="ba-menu__link">About Me</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#works" class="ba-menu__link">Some Of My Works</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#test" class="ba-menu__link">Client Testimonials</a>
+                    </li>
+                    <li class="ba-menu__item">
+                        <a href="#blog" class="ba-menu__link">Blog Post</a>
+                    </li>
+                    <!-- <li class="ba-menu__item">
                         <a href="#" class="ba-menu__link">item</a>
                     </li>
                     <li class="ba-menu__item">
@@ -36,32 +61,407 @@
                     </li>
                     <li class="ba-menu__item">
                         <a href="#" class="ba-menu__link">item</a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
 
+
+
         </div>
     </header>
-
+    <!-- Header End  -->
     <main>
-        <section class="ba-section">
+        <!-- Hero start -->
+        <section class="ba-section ba-hero">
+            <div class="container ba-hero-wrapper">
+                <p class="ba-hero__Hello ba-hero-text">Hello!</p>
+                <div class="ba-hero__title">
+                    <span class="ba-hero__title-text">I'm</span>
+                    <h1 class="ba-hero__title-text ba-hero__title-h1">Oliver Queen</h1>
+                </div>
+                <span class="ba-hero-text ba-hero__info">Web & Interface Designer</span>
+            </div>
+        </section>
+        <!-- hero end -->
+        <!-- about start -->
+        <section id="about" class="ba-section ba-about ba-row">
+            <div class="ba-col-12 ba-col-md-12  ba-col-l-6">
+                <div class="ba-about__img-wrapper">
+                    <div class="ba-about__img">
+                        <img src="img/PSphoto.png" alt="photo">
+                    </div>
+                    <a class="ba-btn__resume" href="files/obrazec_rez.pdf" download=""><i
+                            class="fas fa-cloud-download-alt"></i>Download resume</a>
+                    <!-- <button class="ba-btn__resume"></button> -->
+                </div>
+            </div>
+            <div class="ba-col-12 ba-col-md-12 ba-col-l-6">
+                <div class="ba-about-wrapper">
+                    <h2 class="ba-title">About Me</h2>
+                    <p class="ba-info__text">Hello! I’m Oliver Queen. Web Developer with over 8 years of experience.
+                        Experienced with all stages of the development cycle for dynamic web projects. Having an
+                        in-depth
+                        knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in
+                        management and leadership.
+                    </p>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">Name:</p>
+                        <p class="ba-about__text">Oliver Queen</p>
+                    </div>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">date of birth:</p>
+                        <p class="ba-about__text">14 February 1986</p>
+                    </div>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">Nationality:</p>
+                        <p class="ba-about__text"> Citizen of Envato</p>
+                    </div>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">Address:</p>
+                        <p class="ba-about__text"> 23 High Hope Blvd., Some City, Some Country</p>
+                    </div>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">Phone:</p>
+                        <p class="ba-about__text"> (123) - 456-7890, (123) - 456-7890</p>
+                    </div>
+                    <div class="ba-about__item">
+                        <p class="ba-about__title">Email: </p>
+                        <p class="ba-about__text">oliver.queen@janina.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about end -->
+        <!-- interest start -->
+        <section  class="ba-section ba-interest">
             <div class="container">
+                <h2 class="ba-title">My Interests</h2>
+                <div class="ba-interest__items">
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item"><i class="fas fa-pencil-alt"></i></a>
+                        <p class="ba-interest__item-text">Writing</p>
+                    </div>
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item "><i class="fas fa-plane"></i></a>
+                        <p class="ba-interest__item-text">travel</p>
+                    </div>
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item"><i class="fas fa-headphones "></i></a>
+                        <p class="ba-interest__item-text">Music</p>
+                    </div>
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item"><i class="fas fa-mug-hot"></i></a>
+                        <p class="ba-interest__item-text">Drinking</p>
+                    </div>
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item"><i class="fas fa-space-shuttle"></i></a>
+                        <p class="ba-interest__item-text">SpaceX</p>
+                    </div>
+                    <div class="ba-interest__item-wrapper">
+                        <a href="" class="ba-interest__item"><i class="fas fa-paint-brush"></i></a>
+                        <p class="ba-interest__item-text">Carrot</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- interest end -->
+        <!-- experience start -->
+        <!-- <section class="ba-section ba-expirience">
+            <div class="container">
+                <h2 class="ba-title">education</h2>
+                <div>
+                    <a href="#"><i class="far fa-dot-circle"></i></a>
+                </div>
+            </div>
+        </section> -->
+        <!-- experience end -->
+
+        <!-- works start -->
+        <section id="works" class="ba-section ba-works ">
+            <div class="ba-title-wrapper">
+                <h2 class="ba-title">some of my works</h2>
+            </div>
+            <div class="container ba-works-wrapper">
+
+                <div class="ba-row">
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/Layer_1.png" alt="calc">
+                        </div>
+                        <div class="ba-work__img-hover">
+                            <p>Branding design</p>
+                            <p>logo design</p>
+                        </div>
+                    </div>
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/Layer_2.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/11_portfolio.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/08_portfolio.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/Layer_3.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="ba-work__img-wrapper ba-col-12 ba-col-md-6 ba-col-l-4">
+                        <div class="ba-work__img">
+                            <img src="img/Layer_4.png" alt="calc">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- works end -->
+        <!-- coment start -->
+        <section id="test" class="ba-section ba-comment">
+            <div class="container">
+                <div class="ba-title-wrapper">
+                    <h2 class="ba-title">CLIENT TESTIMONIALS</h2>
+                </div>
+
+                <div class="tabs">
+
+                    <ul class="tabs__caption">
+                        <li class="tab-item">
+                            <img src="img/Layer_6.png" alt="">
+                            <p class="tabs__content active"> someone</p>
+                        </li>
+                        <li class="tab-item active">
+                            <img src="img/Layer_5.png" alt="">
+                            <p class="tabs__content active"> alex tuntunu</p>
+                        </li>
+                        <li class="tab-item">
+                            <img src="img/Layer_7.png" alt="">
+                            <p class="tabs__content active"> someone</p>
+                        </li>
+
+                    </ul>
+
+                    <div class="tabs__content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero unde nemo voluptas
+                            exercitationem velit, error ipsa expedita, reiciendis facilis, dolores repudiandae iste
+                            provident aspernatur at optio iusto alias dolorum.
+                        </p>
+                    </div>
+
+                    <div class="tabs__content active">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse sequi vitae laborum quis,
+                            consequuntur explicabo itaque voluptatibus tempora excepturi nesciunt libero atque quo
+                            adipisci, necessitatibus illum provident architecto quam omnis.
+                        </p>
+                    </div>
+
+                    <div class="tabs__content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae asperiores
+                            odio porro nam, libero recusandae veniam quo quos voluptatum eaque? Assumenda vitae quam
+                            debitis quisquam voluptatibus soluta. Expedita, vel?
+                        </p>
+                    </div>
+
+
+                </div>
 
             </div>
         </section>
+        <!-- comment end -->
+        <!-- blog start -->
+        <section id="blog" class="ba-section ba-blog">
+
+            <div class="container">
+                <div class="ba-title-wrapper">
+                    <h2 class="ba-title">Blog posts</h2>
+                </div>
+                <div class=" ba-row">
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                    <div class="ba-blog__item ba-col-12 ba-col-md-6 ba-col-l-4">
+
+                        <div class="ba-blog__img">
+                            <img src="img/01_(1).png" alt="">
+                        </div>
+                        <h3 class="ba-blog__title">Montu is Going to Breakup
+                            with Tuntuni</h3>
+                        <p class="ba-blog__info">18, March, 2017 | 33 Comments</p>
+                        <p class="ba-blog__content">There are many variations of passages of Lorem Ipsum available,
+                            but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomised words.
+                        </p>
+                        <a href="#" class="ba-blog__btn">Read more</a>
+
+                    </div>
+                </div>
+                <a href="#" id="loadMore" class="ba-blog__btn">load more</a>
+            </div>
+
+        </section>
+
+        <!-- blog end -->
     </main>
 
     <footer class="ba-footer">
         <div class="container">
-
+            <p class="ba-footer__text">oliver © 2017 ALL RIGHTS RESERVED</p>
         </div>
     </footer>
+
+    <div class="ba-modal">
+        <div class="ba-modal-content" style="
+        padding: 15px;
+        background: #fff;
+    ">
+            <button class='ba-modal-close' aria-label='close modal'>x</button>
+            <div class="ba-modal-content-wrapper">
+
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js'></script>
+
     <script src='js/app.js'></script>
+
 
 </body>
 
